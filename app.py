@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 
 st.set_page_config(layout="wide")
-st.title('Dampak Kenaikan Harga Minyak Dunia Terhadap Harga BBM di Indonesia')
+st.title('Dampak Kenaikan Harga Minyak Dunia Terhadap Subsidi BBM di Indonesia')
 st.markdown('---')
 #Read Dataset
 brent= pd.read_csv('brent.csv')
