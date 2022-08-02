@@ -24,11 +24,11 @@ with chrt1:
     ).properties(
         title='Harga Minyak Brent (USD) '
     ).interactive()
-
+   
     st.altair_chart(
         c,use_container_width=True
     )
-
+    st.caption('Sumber: https://www.investing.com/commodities/brent-oil-historical-data')
 with chrt2:
     c= alt.Chart(crude).mark_line(color='orange').encode(
         x='Date:T',
@@ -41,8 +41,7 @@ with chrt2:
     st.altair_chart(
         c,use_container_width=True
     )
-
-
+    st.caption('Sumber: https://www.investing.com/commodities/crude-oil-historical-data')
 
 st.write('Berdasarkan visualisasi diatas terlihat bahwa harga minyak brent dan WTI menunjukkan tren peningkatan harga pasca serangan Rusia ke Ukraina, harga minyak brent mengalami kenaikan harga dengan puncak harga tertinggi pada tanggal 8 Maret 2022 mencapai 127,08 USD per barrel \ndan harga WTI mencapai 123,7 USD per barel.\nKedua jenis minyak tersebut mengalami kenaikan yang cukup signifikan dibandingkan tahun 2021 dengan rentang harga 60-80 USD per barel.')
 
@@ -62,3 +61,4 @@ with chrt3:
     st.altair_chart(
         c,use_container_width=True
     )
+    st.caption('Sumber:  http://www.data-apbn.kemenkeu.go.id/')
