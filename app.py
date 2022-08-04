@@ -44,7 +44,7 @@ with chrt2:
     )
     st.caption('Sumber: https://www.investing.com/commodities/crude-oil-historical-data')
 
-st.write('Berdasarkan visualisasi diatas terlihat bahwa harga minyak brent dan WTI menunjukkan tren peningkatan harga pasca serangan Rusia ke Ukraina, harga minyak brent mengalami kenaikan harga dengan puncak harga tertinggi pada tanggal 8 Maret 2022 mencapai 127,08 USD per barrel \ndan harga WTI mencapai 123,7 USD per barel.\nKedua jenis minyak tersebut mengalami kenaikan yang cukup signifikan dibandingkan tahun 2021 dengan rentang harga 60-80 USD per barel.')
+st.write('Berdasarkan visualisasi diatas terlihat bahwa harga minyak brent dan WTI menunjukkan tren peningkatan harga pasca serangan Rusia ke Ukraina, harga minyak brent mengalami kenaikan harga dengan puncak harga tertinggi pada tanggal 8 Maret 2022 mencapai 127,98 USD per barrel \ndan harga WTI mencapai 123,7 USD per barel.\nKedua jenis minyak tersebut mengalami kenaikan yang cukup signifikan dibandingkan tahun 2021 dengan rentang harga 60-80 USD per barel.')
 
 cap1,chrt3= st.columns([2,2])
 with cap1:
